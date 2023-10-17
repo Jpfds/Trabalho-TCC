@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../tarefa"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "aula_1",
+		"liveServer.settings.port": 5501
+	}
+}
