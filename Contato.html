@@ -1,13 +1,18 @@
 <html>
     <head>
         <title>Contate </title>
-        <link rel="icon" href="./pt.png" type="image/icon type">
-        <link rel="stylesheet" href="./Style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="./logo.png" type="image/icon type">
+    <link rel="stylesheet" href="./Style.css">
         
     </head>
-    <body style="background-color: black;color: white;">
+    <body>
         <header>
-            <h1>E.Access</h1>
+            <div class="div2">
+                <img class="img1" src="./logo.png" alt="">
+                <h1>E.Access</h1>
+                </div>
+           
     
     
             <Nav>
@@ -24,14 +29,15 @@
         <div style="align-items: center;text-align: center;">
         <h2 style="font-size: 40px;">Feedback</h2>
         <br>
-        <form>
+        <form action="" method="post"  >
             <label for="name">Nome</label><br>
-            <input class="form1" type="text" id="name" name="name" value="João"><br>
-            <label for="lgmail">E-mail</label><br>
-            <input class="form1" type="text" id="gmail" name="gmail" value="123456@gmail.com"><br>
+            <input class="form1" type="text" id="name" name="name" placeholder="Usuario" required><br>
+            <label for="gmail">E-mail</label><br>
+            <input class="form1" type="text" id="gmail" name="gmail" placeholder="123456@gmail.com" required><br>
             <label for="ass">Assunto</label><br>
-            <input class="form1" type="text" id="ass" name="ass" value="Deixe sua opinião"><br><br>
-            <input class="form1" type="submit" value="enviar">
+            <input class="form1" type="text" id="ass" name="ass" placeholder="Deixe sua opinião" required><br><br>
+            <input class="buttonf" type="submit" value="enviar">
+        
         </form>
         </div>
     </body>
